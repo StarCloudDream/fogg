@@ -25,6 +25,6 @@ AFK 管理系统
 </ul>
 权限列表
 <ul>
-<li>fogg.scissors.use	使用剪刀特殊功能的权限	OP</li>
-<li>fogg.scissors.protect	保护自己不被剪刀功能影响的权限	OP</li>
+<li>fogg.scissors.use	使用剪刀剪头的权限</li>
+<li>fogg.scissors.protect	保护自己不被剪刀剪头的权限	OP</li>
 </ul>
