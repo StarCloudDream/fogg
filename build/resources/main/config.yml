@@ -1,0 +1,48 @@
+scissors:
+  enabled: true
+  check-totem: true  # 确保为true，要求玩家必须持有图腾才会掉落头颅
+  require-permission: true
+  damage-scissors: true
+  consume-on-success: true  # 成功剪切后直接消耗剪刀
+
+afk:
+  enabled: true
+  kick-enabled: true
+  player-threshold: 30  # 服务器人数阈值，达到此人数时启用AFK功能
+  timeout: 300000  # AFK检测时间，5分钟，单位毫秒
+  kick-time: 1800000  # AFK踢人时间，30分钟，单位毫秒
+  message: "&7你已进入AFK状态"
+  prefix: "&7[AFK] "
+  kick-message: "&c由于长时间AFK，你已被踢出服务器"
+  warn-before-kick: true
+  warning-time: 60000  # 踢人前警告时间，1分钟
+
+entity-optimization:
+  enabled: true # 是否启用实体优化功能
+  allowed-entities:  # 允许处理的实体类型列表
+    - ZOMBIE
+    - SKELETON
+    - CREEPER
+    - ENDERMAN
+    # - ALL  # 取消注释此行以处理所有实体类型
+  drop-equipment: true  # 是否掉落装备物品
+  drop-armor: true  # 是否掉落盔甲物品
+  despawn-distance: 128.0  # 实体清除的距离阈值（模拟原版清除）
+  protect-named-entities: true  # 是否保护有命名的实体
+  logging:
+    enabled: false  # 是否记录实体清除日志
+    level: INFO  # 日志级别：INFO, WARNING, SEVERE
+
+head:
+  drop-chance: 100
+  drop-naturally: true
+
+messages:
+  enabled: true
+  head-dropped: "&a你成功获取了&e%player%&a的头颅！"
+  totem-consumed: "&c你的不死图腾被消耗了！"
+  no-permission: "&c你没有权限使用此功能！"
+  no-totem: "&c目标没有持有不死图腾！"
+  bot-head-not-allowed: "&c无法获取假人头颅！"
+  victim-has-armor: "&c目标穿戴了盔甲，无法使用剪刀特殊效果！"
+
