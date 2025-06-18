@@ -17,22 +17,6 @@ afk:
   warn-before-kick: true
   warning-time: 60000  # 踢人前警告时间，1分钟
 
-entity-optimization:
-  enabled: true # 是否启用实体优化功能
-  allowed-entities:  # 允许处理的实体类型列表
-    - ZOMBIE
-    - SKELETON
-    - CREEPER
-    - ENDERMAN
-    # - ALL  # 取消注释此行以处理所有实体类型
-  drop-equipment: true  # 是否掉落装备物品
-  drop-armor: true  # 是否掉落盔甲物品
-  despawn-distance: 128.0  # 实体清除的距离阈值（模拟原版清除）
-  protect-named-entities: true  # 是否保护有命名的实体
-  logging:
-    enabled: false  # 是否记录实体清除日志
-    level: INFO  # 日志级别：INFO, WARNING, SEVERE
-
 head:
   drop-chance: 100
   drop-naturally: true
