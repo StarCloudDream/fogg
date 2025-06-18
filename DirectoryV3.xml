@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <trees>
+     <tree path="/src/main/java/cn/mcscd/fogg/afk/AFKManager.java" title="AFK核心管理类，实现监听器和命令处理"/>
+     <tree path="/src/main/java/cn/mcscd/fogg/afk/AFKConfig.java" title="AFK配置类，封装所有配置参数"/>
+     <tree path="/src/main/java/cn/mcscd/fogg/listener/ScissorsListener.java" title="剪刀功能核心监听器"/>
+     <tree path="/src/main/java/cn/mcscd/fogg/FoggPlugin.java" title="主插件类"/>
+ </trees>
