@@ -1,0 +1,23 @@
+name: Fogg
+main: cn.mcscd.fogg.FoggPlugin
+version: 1.5.0
+api-version: 1.21
+description: 一个由StarCloudDream开发的Minecraft插件
+author: StarCloudDream
+website: mcscd.cn
+
+commands:
+  afk:
+    description: 切换AFK状态
+  isafk:
+    description: 查看玩家AFK状态
+
+permissions:
+  fogg.scissors.use:
+    description: 使用剪刀特殊功能的权限
+    default: true
+  fogg.scissors.protect:
+    description: 保护自己不被剪刀特殊功能影响的权限
+    default: false
+
+
