@@ -2,7 +2,6 @@ package cn.mcscd.fogg;
 
 import cn.mcscd.fogg.afk.AFKManager;
 import cn.mcscd.fogg.listener.ScissorsListener;
-import cn.mcscd.fogg.listener.EntityOptimizationListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class FoggPlugin extends JavaPlugin {
@@ -20,8 +19,6 @@ public class FoggPlugin extends JavaPlugin {
 
  
         getServer().getPluginManager().registerEvents(new ScissorsListener(this), this);
- 
-        getServer().getPluginManager().registerEvents(new EntityOptimizationListener(this), this);
 
         getLogger().info("Fogg插件已启用，AFK和剪刀功能已激活");
     }
